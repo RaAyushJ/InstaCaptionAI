@@ -111,6 +111,11 @@ st.markdown(f"""
         transform: translateY(-2px);
         box-shadow: 0 0 15px #7928ca, 0 0 25px #f81ce5;
     }}
+    /* Hide deprecation warning about use_column_width */
+    .st-emotion-cache-1wmy9hl, .stAlert, .st-emotion-cache-ue6h4q {{
+    display: none !important;
+    }}
+
     </style>
 """, unsafe_allow_html=True)
 
