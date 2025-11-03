@@ -13,7 +13,7 @@ except KeyError:
     st.error("GENAI_API_KEY not found in Streamlit secrets. Please configure it.")
     st.stop()
 
-GEMINI_MODEL = "models/gemini-1.5-flash"
+GEMINI_MODEL = "models/gemini-2.5-flash"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/{GEMINI_MODEL}:generateContent"
 
 # --- Page Setup ---
